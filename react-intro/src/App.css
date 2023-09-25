@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: flex-start;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.app{
+  width: 100vw;
+  padding: 50px 100px;
+}
+
+main {
+  width: 100vw;
+  padding: 50px 100px;
+  background: #1c2535;
+  color: white;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 33px;
+  height: 16px;
+}
+
+.content{
+  padding-top: 100px;
+}
+
+.content h1{
+  font-size: 68px;
+  margin: 0;
+}
+.content p{
+  /* font-size: 68px; */
+  margin: 0;
+}
+
+.text{
+  margin: 20px 0;
+}
