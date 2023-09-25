@@ -27,9 +27,14 @@ function App() {
             </div>
             <button>Awesome!</button>
           </div>
-        </section>
-        
+        </section>       
       </main>
+      <section class="features">
+          <div class="feature"><img src={icon1}/><h2>Declarative</h2><div class="feature-text"><p>React makes it</p><p>painless to create</p><p>interactive UIs.</p></div></div>
+          <div class="feature"><img src={icon2}/><h2>Components</h2><div class="feature-text"><p>React makes it</p><p>painless to create</p><p>interactive UIs.</p></div></div>
+          <div class="feature"><img src={icon3}/><h2>Single-Way</h2><div class="feature-text"><p>React makes it</p><p>painless to create</p><p>interactive UIs.</p></div></div>
+          <div class="feature"><img src={icon4}/><h2>JSX</h2><div class="feature-text"><p>React makes it</p><p>painless to create</p><p>interactive UIs.</p></div></div>
+        </section>
     </div>
   );
 }
